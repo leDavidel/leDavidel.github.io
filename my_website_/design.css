@@ -1,0 +1,37 @@
+
+body {
+    background-color: bisque;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #393;
+}
+
+a:visited {
+    color: bisque;
+}
+
+a:hover {
+    color: cadetblue;
+    background-color: grey;
+}
+
+a:active {
+    color: turquoise;
+    background-color: wheat;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+
+
+
+
+

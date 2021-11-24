@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<title>JS Ex</title>
+
+
+
+
+<body>
+    
+<h1>JavaScript Ex</h1>
+
+<h2>Hello World</h2>
+<button onclick="HelloWorld()">Hello World</button>
+
+<h2>Hello David</h2>
+<button onclick="hello('David')">Hello David</button>
+
+<h2>Hello Name</h2>
+<button onclick="hiname('what is your name')">Hello Name</button>
+
+<h2>Hello Confirmed</h2>
+<button onclick="namehi()">Hello Confirmed</button>
+
+<h2>Count to 10</h2>
+<button onclick="countToten()">Count to 10</button>
+
+
+<h2>Change Div Color</h2>
+<div id="container"></div>
+<button id="changecolor" onclick="changecolor()">Change Div Color</button>
+
+
+<h2>Move Div Using a Class</h2>
+<div id="moving"></div>
+<button id="movebuten" onclick="movediv()">Move the Div</button>
+
+<style>
+    #container  {
+        height: 90px;
+        width: 90px;
+        background-color: royalblue;
+    }
+
+    #moving {
+        height: 90px;
+        width: 90px;
+        background-color: royalblue;
+    }
+
+</style>
+
+
+<script>
+    function HelloWorld () {
+        alert("Hello World")
+    }
+
+    function hello(name) {
+        alert("Hello " + name + "!");
+    }
+
+    function hiname(name) {
+        var name = prompt ("what is your name");
+        alert("Hello " + name + "!");
+    }
+
+    function namehi(name) {
+        var name = prompt ("what is your name");
+        var confirmed = confirm("Are you sure " + "this your name");
+        
+        if (confirmed) {
+            alert("Hello " + name + "!");
+        }
+        else {
+            name = prompt("What is your name");
+            confirmed = confirm("Are you sure this is your name?");
+            if (confirmed) {
+                alert("Hello " + name + "!");
+            }
+        }
+
+        function countToten(confirmed) {
+            //var name = ("count to ten")
+            alert(i);
+            var confirmed = confirm("1");
+            for(i = 1; i <= 10; i++){
+             
+             }
+        }
+
+        function changecolor () {
+            var color;
+
+            if( !isChanged ) {
+                color = "#fc0";
+                isChanged = true;
+            }
+            else {
+                color = "#ccc"
+                isChanged = false;
+            }
+
+            var box = document.getElementById("colorchange");
+            box.style.backgroundColor = color;
+           
+           // let button = document.getElementById("colorchange").style.backgroundColor = "#fc0";
+        }
+
+        function movediv () {
+           //let = document.getElementById("movebuten").classList.toggle("moved");
+            //-webkit-transform.translateX(400) ;
+            document.getElementById("moving").classList.toggle("moved"); 
+        }
+
+    }
+
+    // add to website. as an exercise //
+</script>
+
+
+
+
+</body>
+
+</html>

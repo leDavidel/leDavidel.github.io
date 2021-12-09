@@ -87,3 +87,8 @@ h2, h4 {
 p, ol, li {
     text-decoration: underline;
 }
+
+
+footer {
+    background-color: coral;
+}

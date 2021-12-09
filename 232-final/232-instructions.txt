@@ -1,0 +1,103 @@
+## MC 232 Final Exam - Instructions
+
+Create the page shown in the file "232-final-comp.png" to the best of your abilities. If you're not sure how to accomplish something, give it your best shot. Effort counts for this exercise!
+
+Please make all links point to "#"... ie: <a href="#">Link Text Here</a>
+
+Here is roughly the breakdown of points:
+
+HTML - 30%
+ - Is it semantically structured?
+ - Is it formatted cleanly?
+ - Does it validate at the W3C validator?
+
+CSS - 40%
+ - Is it formatted cleanly?
+ - Does it faithfully re-create the layout?
+ - Are all colors correctly placed?
+ - Are there any errors that prevent it from working correctly?
+
+IMAGES - 10%
+ - Are images resized correctly?
+ - Are they displayed correctly in the page?
+
+OVERALL FIDELITY - 20%
+ - How closely does your work resemble the comp provided?
+
+
+----------------------------------------------------
+## Some Things You'll Want to Know
+
+
+COLORS
+---------
+Light Purple: #7476ED
+Dark Purple: #3A3B7B
+Pink: #E56F8C
+Dark Pink: #CD4B6B
+Teal: #64C2DB
+Dark Teal: #2B91AC
+Dark Gray: #5A5A5A
+
+
+FONT
+---------
+Place this code in the <head> of your document to get access to the font used... Nunito.
+
+<!-- BEGIN FONT IMPORT -->
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<!-- END FONT IMPORT -->
+
+
+FONT NOTES
+----------
+ - The standard body font size is 18px
+ - The navigation is 16px
+ - The hero text "Coffee roasting solutions..." is 48px
+ - The subheads are 36px (both the three under the hero and "About the Company"
+ - The testimonial and newsletter text is also 36px
+ - Button text is 18px
+
+** All font sizes should be assigned in "em" or "rem" units **
+
+
+IMAGES
+----------
+Images are provided in the "images" folder. There are only two used on the page. The JPG will need to be resized.
+
+
+
+----------------------------------------------------
+## Text blocks from top to bottom (shorter text can be typed in)
+
+
+-----
+
+Energy-efficient
+Our coffee roasters are some of the most energy-efficient in the business. Whether you’re looking for a solar-powered roaster or a traditional natural gas roaster, we have you covered.
+
+-----
+
+Reliable
+You can’t have roaster downtime, so buy the best. Logoipsum coffee roasters have been rated “most reliable” for twelve years running by Coffee Roaster Monthly.
+
+-----
+
+Simple
+Coffee roasting isn’t rocket science. You put the coffee in and hit the button. So simple anyone could do it.
+
+-----
+
+Logoipsum coffee roasters are the best. I don’t know how my business would function without them.  — John Doe, CoffeeKult
+
+-----
+
+About the Company
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum augue mauris, ultrices placerat volutpat non, tincidunt vestibulum dolor. Sed ullamcorper quis arcu in luctus. In hac habitasse platea dictumst. Suspendisse ut tincidunt lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut at sapien id ex faucibus scelerisque. Quisque tempor orci sed lectus tempor, semper mollis nunc aliquam. Integer cursus semper mauris quis fringilla. Aenean quis nunc felis. Donec ut purus cursus, placerat eros dignissim, dictum tellus. Duis et pretium urna. Praesent non nulla eros. Aenean suscipit egestas viverra. Duis at egestas tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+
+Phasellus sodales maximus ex, nec luctus massa porta ac. Ut egestas metus a mi fermentum vestibulum. In non sapien aliquam, porttitor eros sit amet, placerat arcu. Suspendisse eget vehicula mauris, ac dapibus mi. Maecenas aliquam congue lacus a volutpat. Morbi aliquet tristique felis, ut interdum nunc lobortis sit amet. Aliquam finibus eu elit sed consequat.
+
+-----
